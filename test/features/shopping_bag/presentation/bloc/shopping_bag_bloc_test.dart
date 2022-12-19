@@ -1,9 +1,4 @@
-import 'package:baker_soft_shop/features/preview_products/data/models/news_feed_products/news_feed_products.dart';
 import 'package:baker_soft_shop/features/preview_products/data/models/product_model/product_model.dart';
-import 'package:baker_soft_shop/features/preview_products/domain/repositories/preview_all_products_repository.dart';
-import 'package:baker_soft_shop/features/preview_products/domain/usecases/preview_all_products_usecase.dart';
-import 'package:baker_soft_shop/features/preview_products/presentation/bloc/preview_all_products_cubit/preview_all_products_cubit.dart';
-import 'package:baker_soft_shop/features/shop_bag/domain/repositories/shopping_bag_repository.dart';
 import 'package:baker_soft_shop/features/shop_bag/domain/usecases/shopping_bag_usecase.dart';
 import 'package:baker_soft_shop/features/shop_bag/presentation/bloc/shopping_bag_cubit.dart';
 import 'package:bloc_test/bloc_test.dart';

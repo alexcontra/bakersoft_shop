@@ -39,12 +39,14 @@ class ProductView extends StatelessWidget {
               children: [
                 Padding(
                   padding: EdgeInsets.only(
-                      top: Paddings.P_6,
+                      top: Paddings.P_14,
                       bottom: Paddings.P_6,
                       right: Paddings.P_32),
                   child: Image.asset(
                     productModel.image!,
-                    height: Heights.H_150,
+                    height: MediaQuery.of(context).size.width > 875
+                        ? Heights.H_150
+                        : Heights.H_115,
                   ),
                 ),
                 Column(

@@ -2,7 +2,10 @@
 
 class Heights {
   static double H_256 = 256.0;
+  static double H_230 = 230.0;
+  static double H_180 = 180.0;
   static double H_150 = 150.0;
+  static double H_115 = 115.0;
   static double H_100 = 100.0;
   static double H_64 = 64.0;
   static double H_27 = 27.0;

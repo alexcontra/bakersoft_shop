@@ -38,7 +38,9 @@ class TopProductContainer extends StatelessWidget {
               Image.asset(
                 productModel.image!,
                 height: Heights.H_256,
-                width: 230,
+                width: MediaQuery.of(context).size.width > 425
+                    ? Heights.H_230
+                    : Heights.H_180,
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,

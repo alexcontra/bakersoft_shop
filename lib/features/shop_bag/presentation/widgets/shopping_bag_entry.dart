@@ -1,7 +1,6 @@
 import 'package:baker_soft_shop/features/preview_products/presentation/widgets/text_widget_view.dart';
 import 'package:baker_soft_shop/specs/constraints.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 
 import '../../../../specs/assets.dart';

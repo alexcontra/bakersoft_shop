@@ -19,7 +19,7 @@ void main() {
     productUseCase = ProductUseCase(productRepositoryMock);
   });
 
-  test('Preview data usecase test', () async {
+  test('Product  usecase test', () async {
     //set-up
     when(productRepositoryMock.saveCurrentProductInLocalStore(testProduct))
         .thenAnswer((_) async => const Right(true));

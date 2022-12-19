@@ -1,12 +1,9 @@
 import 'package:baker_soft_shop/core/common_widgets/app_bar/app_bar_view.dart';
-import 'package:baker_soft_shop/core/common_widgets/buttons/buttons.dart';
-import 'package:baker_soft_shop/features/preview_products/presentation/widgets/text_widget_view.dart';
 import 'package:baker_soft_shop/features/shop_bag/presentation/bloc/shopping_bag_cubit.dart';
 import 'package:baker_soft_shop/features/shop_bag/presentation/controller/bag_controller.dart';
 import 'package:baker_soft_shop/features/shop_bag/presentation/widgets/bottom_action.dart';
 import 'package:baker_soft_shop/features/shop_bag/presentation/widgets/shopping_bag_entry.dart';
 import 'package:baker_soft_shop/specs/colors.dart';
-import 'package:baker_soft_shop/specs/constraints.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
